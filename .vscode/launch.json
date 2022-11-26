@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-node",
+            "type": "node",
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}/index.js",
@@ -13,8 +13,8 @@
             "outputCapture": "std",
             "env": {
                 "PORT"      : "3001",
-                "FILES_DIR" : "/tmp/test",
-                "REDIS_URL" : "redis://:foobared@172.18.2.64"
+                "FILES_DIR" : "/tmp",
+                "REDIS_URL" : "redis://:foobared@172.18.22.64"
             },
             "skipFiles": [
                 "<node_internals>/**"
